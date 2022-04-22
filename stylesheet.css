@@ -56,3 +56,12 @@ body {
   border-radius: 4%;
   opacity: .95;
 }
+
+#timer {
+  text-align: center;
+  font-size: 150%;
+  font-weight: 400;
+  margin:.25em;
+  margin-bottom: .5em;
+  opacity: .75;
+}
