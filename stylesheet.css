@@ -19,7 +19,7 @@ a:link, a:visited, a:hover, a:active {
   background: aliceblue;
 }
 body {
-  margin: 12% calc(45.25% - 273.6px);
+  margin: 10% calc(45.25% - 273.6px);
   font-size: calc(0.5vw + 28.8px);
   font-family: 'EB Garamond', serif;
   line-height: 1.25;
@@ -30,7 +30,7 @@ body {
 }
 @media only screen and (max-width: 640px) {
   body {
-    margin: 12% 2.5%;
+    margin: 10% 2.5%;
     font-size: 5vw;
   }
 }
