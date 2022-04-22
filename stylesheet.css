@@ -13,10 +13,10 @@ a:link, a:visited, a:hover, a:active {
   -webkit-text-decoration-skip: ink;
 }
 ::-moz-selection { /* Code for Firefox */
-  background: white;
+  background: mintcream;
 }
 ::selection {
-  background: white;
+  background: mintcream;
 }
 body {
   margin: 12% calc(31% - 182.4px);
@@ -25,7 +25,7 @@ body {
   line-height: 1.25;
   opacity: .75;
   letter-spacing: -0.05em;
-  background-color: whitesmoke;
+  background-color: ghostwhite;
 }
 @media only screen and (max-width: 640px) {
   body {
