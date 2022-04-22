@@ -46,3 +46,10 @@ body {
   font-weight: 400;
   margin:.75em
 }
+.homeimage {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  border-radius: 5%;
+}
