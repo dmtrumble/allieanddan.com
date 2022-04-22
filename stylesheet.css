@@ -19,8 +19,8 @@ a:link, a:visited, a:hover, a:active {
   background: aliceblue;
 }
 body {
-  margin: 12% calc(31% - 182.4px);
-  font-size: calc(2vw + 19.2px);
+  margin: 12% calc(45.25% - 273.6px);
+  font-size: calc(0.5vw + 28.8px);
   font-family: 'EB Garamond', serif;
   line-height: 1.25;
   opacity: .75;
