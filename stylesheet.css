@@ -43,7 +43,7 @@ body {
 .text {
   text-align: center;
   font-size: 150%;
-  font-weight: 400;
+  font-weight: 500;
   margin:.25em;
   margin-bottom: .5em;
   opacity: .75;
@@ -59,9 +59,8 @@ body {
 
 #timer {
   text-align: center;
-  font-size: 150%;
-  font-weight: 400;
-  margin:.25em;
-  margin-bottom: .5em;
-  opacity: .5;
+  font-size: 100%;
+  font-weight: 500;
+  margin:.5em;
+  opacity: .75;
 }
