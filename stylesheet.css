@@ -26,6 +26,7 @@ body {
   opacity: .75;
   letter-spacing: -0.05em;
   background-color: snow;
+  color: #040129;
 }
 @media only screen and (max-width: 640px) {
   body {
