@@ -103,7 +103,26 @@ body {
   	margin:1em;
   	opacity: .75;
 }
+.section-title {
+	text-align: center;
+  	font-size: 100%;
+  	opacity: .75;
+	margin-top: 2em;
+	margin-bottom: .5em;
+}
+.section-text {
+	text-align: left;
+  	font-size: 60%;
+  	opacity: .75;
+	font-family: 'Karla', sans-serif;
+}
 
+.schedule-day {
+
+}
+.schedule-event {
+
+}
 
 
 
