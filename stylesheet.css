@@ -1,66 +1,110 @@
 html {
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  	-webkit-font-smoothing: antialiased;
+  	-moz-osx-font-smoothing: grayscale;
 }
 *, *:after, *:before {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
+  	-webkit-box-sizing: border-box;
+  	-moz-box-sizing: border-box;
+  	box-sizing: border-box;
 }
 a:link, a:visited, a:hover, a:active {
-  color: blue;
-  text-decoration-skip: ink;
-  -webkit-text-decoration-skip: ink;
+  	color: blue;
+  	text-decoration-skip: ink;
+  	-webkit-text-decoration-skip: ink;
 }
 ::-moz-selection { /* Code for Firefox */
-  background: aliceblue;
+  	background: aliceblue;
 }
 ::selection {
-  background: aliceblue;
+  	background: aliceblue;
 }
 body {
-  margin: 3% calc(45.25% - 273.6px);
-  font-size: calc(0.5vw + 28.8px);
-  font-family: 'EB Garamond', serif;
-  line-height: 1.25;
-  letter-spacing: -0.05em;
-  background-color: snow;
-  color: #040129;
+  	font-family: 'EB Garamond', serif;
+  	line-height: 1.25;
+  	letter-spacing: -0.05em;
+  	background-color: snow;
+  	color: #040129;
+	margin: 0px;
+}
+.content {
+ 	margin: 3% calc(45.25% - 273.6px);
+  	font-size: calc(0.5vw + 28.8px);
+}
+.menu {
+  	padding: 1% calc(45.25% - 273.6px);
+  	font-size: calc(0.5vw + 28.8px);
+	background-color: white;
+	border-bottom: 1px solid darkgray;
+	position: fixed;
+  	top: 0;
+	width: 100%;
+	z-index: 100;
+	font-family: 'Poppins', sans-serif;
+	text-align: justify; 
+	text-decoration: none;
+}
+.menu a {
+  	float: left;
+	font-size: 50%;
+	text-decoration: none;
+	color: #040129;
+	opacity: 75%;
+}
+.topnav-centered a {
+  	float: none;
+  	position: absolute;
+  	top: 50%;
+  	left: 50%;
+  	transform: translate(-50%, -50%);
+	text-decoration: none;
+}
+.topnav-right {
+  	float: right;
 }
 @media only screen and (max-width: 640px) {
-  body {
-    margin: 8% 2.5%;
-    font-size: 5vw;
-  }
+  	.content {
+    		margin: 3% 2.5%;
+    		font-size: 5vw;
+	}
+	.menu {
+	 	padding: 3% 2.5%;
+    		font-size: 5vw;
+  	}
 }
 .headline {
-  text-align: center;
-  font-size: 225%;
-  margin-bottom: .1em;
-  font-weight:500;
-  opacity: .75;
+  	text-align: center;
+  	font-size: 225%;
+  	margin-bottom: .1em;
+  	font-weight:500;
+  	opacity: .75;
+	margin-top: 15%;
 }
 .text {
-  text-align: center;
-  font-size: 150%;
-  font-weight: 500;
-  margin:.25em;
-  margin-bottom: .5em;
-  opacity: .75;
+  	text-align: center;
+  	font-size: 150%;
+  	font-weight: 500;
+  	margin:.25em;
+  	margin-bottom: .5em;
+  	opacity: .75;
 }
 .homeimage {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 75%;
-  border-radius: 4%;
-  opacity: .95;
+  	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+  	width: 75%;
+  	border-radius: 4%;
+  	opacity: .95;
 }
 
 #timer {
-  text-align: center;
-  font-size: 100%;
-  font-weight: 500;
-  margin:1em;
-  opacity: .75;
+  	text-align: center;
+  	font-size: 100%;
+  	font-weight: 500;
+  	margin:1em;
+  	opacity: .75;
 }
+
+
+
+
+
