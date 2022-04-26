@@ -107,7 +107,7 @@ body {
 
 .section-title {
 	text-align: center;
-  	font-size: 100%;
+  	font-size: 125%;
   	opacity: .75;
 	margin-top: 0;
 	margin-bottom: .5em;
@@ -127,19 +127,19 @@ body {
 	clear: left;	
 }
 .schedule-event {
-	width: 50%;
+	width: 43.5%;
  	float: left;
 	font-family: 'EB Garamond', serif;
 	padding-top: .25em;
 	padding-bottom: .25em;
 	font-weight:500;
 	border-top: 1px solid darkgrey;
+	line-height: 80%;
 }
 .schedule-description {
-	width: 50%;
+	width: 56.5%;
     	float: left;
 	font-style: italic;
-	border-left: 1px solid darkgrey;
 	border-top: 1px solid darkgrey;
 	padding-left: 1em;
 	padding-top: .25em;
@@ -186,16 +186,14 @@ body {
 	padding-top: .25em;
 	padding-bottom: .25em;
 	text-align: right;
+	text-decoration: underline 1px;
 }
 
 a.footerlink {
 	text-decoration: none;
 	color: #040129;
 }
-a.footerlink:hover {
-	text-decoration: underline 1px;
-	color: #040129;
-}
+
 
 a.address-link {
 	text-decoration: underline;
@@ -222,4 +220,14 @@ a.book-link {
 }
 .accommodation-link:hover {
 	background-color: white;
+}
+.footer:hover {
+	background-color: white;
+}
+a.schedule-link {
+	color: #040129;
+	text-decoration: underline 1px;
+}
+a.schedule-link:hover {
+	text-decoration: underline 1px;
 }
