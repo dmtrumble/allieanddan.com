@@ -46,7 +46,7 @@ body {
 }
 .menu a {
   	float: left;
-	font-size: 50%;
+	font-size: 65%;
 	text-decoration: none;
 	color: #040129;
 	opacity: 75%;
@@ -93,8 +93,7 @@ body {
   	display: block;
   	margin-left: auto;
   	margin-right: auto;
-  	width: 75%;
-  	border-radius: 4%;
+  	width: 100%;
   	opacity: .95;
 }
 
@@ -118,7 +117,7 @@ body {
 }
 .section-text {
 	text-align: left;
-  	font-size: 75%;
+  	font-size: 85%;
   	opacity: .75;
 }
 
@@ -156,10 +155,11 @@ body {
 	background-color: white;
 	box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1), 0 2px 5px 0 rgba(0, 0, 0, 0.1);
 	margin-bottom: 2em;
+	border-radius: .2em;
 }
 .footer {
 	text-align: center;
-  	font-size: 75%;
+  	font-size: 85%;
   	opacity: .75;
 	border: 1px solid darkgrey;
 	padding: .25em;
@@ -177,7 +177,7 @@ body {
 	font-family: 'EB Garamond', serif;
 	padding-top: .25em;
 	padding-bottom: .25em;
-	margin-bottom: 2em;
+	margin-bottom: 1em;
 }
 .accommodation-address {
 	width: 40%;
@@ -185,9 +185,41 @@ body {
 	font-style: italic;
 	padding-top: .25em;
 	padding-bottom: .25em;
+	text-align: right;
 }
 
-a.footerlink:link {
+a.footerlink {
 	text-decoration: none;
 	color: #040129;
+}
+a.footerlink:hover {
+	text-decoration: underline 1px;
+	color: #040129;
+}
+
+a.address-link {
+	text-decoration: underline;
+	color: #040129;
+}
+
+a.address-link:hover {
+	text-decoration: underline;
+	color: #040129;
+}
+
+.accommodation-link {
+	font-style: italic;
+	clear: left;
+	border: 1px solid darkgrey;
+	text-align: center;
+	margin-bottom: 3em;
+	padding: .25em;
+	
+}
+a.book-link {
+	color: #040129;
+	text-decoration: underline 1px;
+}
+.accommodation-link:hover {
+	background-color: white;
 }
