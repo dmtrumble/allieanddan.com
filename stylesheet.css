@@ -25,6 +25,7 @@ body {
   	background-color: snow;
   	color: #040129;
 	margin: 0px;
+	font-weight: 400;
 }
 .content {
  	margin: 3% calc(45.25% - 273.6px);
@@ -45,7 +46,7 @@ body {
 }
 .menu a {
   	float: left;
-	font-size: 65%;
+	font-size: 50%;
 	text-decoration: none;
 	color: #040129;
 	opacity: 75%;
@@ -74,7 +75,7 @@ body {
 .headline {
   	text-align: center;
   	font-size: 225%;
-  	margin-bottom: .1em;
+  	margin-bottom: 0;
   	font-weight:500;
   	opacity: .75;
 	margin-top: 15%;
@@ -82,9 +83,10 @@ body {
 .text {
   	text-align: center;
   	font-size: 150%;
-  	font-weight: 500;
+	font-style: italic;
   	margin:.25em;
   	margin-bottom: .5em;
+	margin-top: -.5em;
   	opacity: .75;
 }
 .homeimage {
@@ -99,31 +101,93 @@ body {
 #timer {
   	text-align: center;
   	font-size: 100%;
-  	font-weight: 500;
+  	font-weight: 400;
   	margin:1em;
   	opacity: .75;
 }
+
 .section-title {
 	text-align: center;
   	font-size: 100%;
   	opacity: .75;
-	margin-top: 2em;
+	margin-top: 0;
 	margin-bottom: .5em;
+	text-decoration: underline 1px;
+	font-weight: 500;
+	
 }
 .section-text {
 	text-align: left;
-  	font-size: 60%;
+  	font-size: 75%;
   	opacity: .75;
-	font-family: 'Karla', sans-serif;
 }
 
 .schedule-day {
-
+	font-family: 'EB Garamond', serif;
+	font-style: italic;
+	clear: left;	
 }
 .schedule-event {
-
+	width: 50%;
+ 	float: left;
+	font-family: 'EB Garamond', serif;
+	padding-top: .25em;
+	padding-bottom: .25em;
+	font-weight:500;
+	border-top: 1px solid darkgrey;
+}
+.schedule-description {
+	width: 50%;
+    	float: left;
+	font-style: italic;
+	border-left: 1px solid darkgrey;
+	border-top: 1px solid darkgrey;
+	padding-left: 1em;
+	padding-top: .25em;
+	padding-bottom: .25em;
+}
+.section-text::after {
+  	content: "";
+  	clear: both;
+  	display: table;
+}
+.card {
+	padding: .5em;
+	background-color: white;
+	box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1), 0 2px 5px 0 rgba(0, 0, 0, 0.1);
+	margin-bottom: 2em;
+}
+.footer {
+	text-align: center;
+  	font-size: 75%;
+  	opacity: .75;
+	border: 1px solid darkgrey;
+	padding: .25em;
+}
+.accommodation-name {
+	font-family: 'EB Garamond', serif;
+	font-style: italic;
+	clear: left;	
+	border-bottom: 1px solid darkgrey;
+	font-weight: 500;
+}
+.accommodation-description {
+	width: 60%;
+ 	float: left;
+	font-family: 'EB Garamond', serif;
+	padding-top: .25em;
+	padding-bottom: .25em;
+	margin-bottom: 2em;
+}
+.accommodation-address {
+	width: 40%;
+    	float: left;
+	font-style: italic;
+	padding-top: .25em;
+	padding-bottom: .25em;
 }
 
-
-
-
+a.footerlink:link {
+	text-decoration: none;
+	color: #040129;
+}
