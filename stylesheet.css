@@ -81,6 +81,16 @@ body {
 	margin-top: 15%;
 }
 .text {
+	
+  	text-align: center;
+  	font-size: 135%;
+	font-style: italic;
+  	margin:.25em;
+  	margin-bottom: 2em;
+	margin-top: -.65em;
+  	opacity: .75;
+}
+.location {
   	text-align: center;
   	font-size: 150%;
 	font-style: italic;
@@ -101,13 +111,13 @@ body {
   	text-align: center;
   	font-size: 100%;
   	font-weight: 400;
-  	margin:1em;
+  	margin:.5em;
   	opacity: .75;
 }
 
 .section-title {
 	text-align: center;
-  	font-size: 125%;
+  	font-size: 150%;
   	opacity: .75;
 	margin-top: 0;
 	margin-bottom: .5em;
@@ -125,24 +135,25 @@ body {
 	font-family: 'EB Garamond', serif;
 	font-style: italic;
 	clear: left;	
+	
 }
 .schedule-event {
-	width: 43.5%;
+	width: 42%;
  	float: left;
 	font-family: 'EB Garamond', serif;
-	padding-top: .25em;
+	padding-top: 1em;
 	padding-bottom: .25em;
 	font-weight:500;
-	border-top: 1px solid darkgrey;
-	line-height: 80%;
+	
+	line-height: 90%;
 }
 .schedule-description {
-	width: 56.5%;
+	width: 58%;
     	float: left;
-	font-style: italic;
-	border-top: 1px solid darkgrey;
+	text-align: right;
+	
 	padding-left: 1em;
-	padding-top: .25em;
+	padding-top: 1em;
 	padding-bottom: .25em;
 }
 .section-text::after {
