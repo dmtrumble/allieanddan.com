@@ -29,7 +29,7 @@
 			var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
 			var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 			// Display the result in the element with id="timer"
-			document.getElementById("timer").innerHTML = days + "d " + hours + "h " + minutes + "m " + seconds + "s ";
+			document.getElementById("timer").innerHTML = days + " days · " + hours + " hours · " + minutes + " mins · " + seconds + "s ";
 			// If the count down is finished, write some text
 			if (distance < 0) {
 			    clearInterval(x);
@@ -37,10 +37,6 @@
 			  }
 			}, 1000);
 		</script>
-		<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-		<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-		<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-		<link rel="manifest" href="/site.webmanifest">
 	</head>
 
 	<body>
@@ -136,11 +132,17 @@
 					Accommodations
 				</div>
 				<div class="section-text">
+					<div class="card">
+					<div class="accommodation-text">
+					There are room blocks at the following hotels. They're each within a 5 minute walk to both the Church and the reception venue. <br><br>
+					A trolly will be running from each of the hotels to the church, and from the church to the reception, exact times tbd. 
+					</div>
+					</div>
 					<div class="accommodation-name">
 						Kimpton Hotel Monaco
 					</div>
 					<div class="accommodation-description">
-						Hotel Monaco is the closest hotel to the venue and where we are staying!
+						The Monaco is the closest hotel to the venue and where we'll be for welcome drinks on Friday!
 					</div>
 					<a href="https://goo.gl/maps/KshWtHN6coEytaEz8" target="_blank" class="address-link">
 					<div class="accommodation-address">
@@ -157,7 +159,7 @@
 						Renaissance Philadelphia
 					</div>
 					<div class="accommodation-description">
-						The Renaissance is right next to Hotel Monaco.
+						Right next to Hotel Monaco.
 					</div>
 					<a href="https://goo.gl/maps/zzHwboxC6QH69f3n6" target="_blank" class="address-link">
 					<div class="accommodation-address">
@@ -174,7 +176,7 @@
 						Mariot Old City
 					</div>
 					<div class="accommodation-description">
-						Also very walkable to both the church and the venue.
+						It's a Mariot.
 					</div>
 					<a href="https://goo.gl/maps/3wvtusKKd3W9jqzs5" target="_blank" class="address-link">
 					<div class="accommodation-address">
