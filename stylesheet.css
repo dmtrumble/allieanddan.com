@@ -51,6 +51,16 @@ body {
 	color: #040129;
 	opacity: 75%;
 }
+@media only screen and (max-width: 640px) {
+  	.content {
+    		margin: 3% 2.5%;
+    		font-size: 5vw;
+	}
+	.menu {
+	 	padding: 3% 2.5%;
+    		font-size: 5vw;
+  	}
+}
 .topnav-centered a {
   	float: none;
   	position: absolute;
@@ -62,15 +72,13 @@ body {
 .topnav-right {
   	float: right;
 }
-@media only screen and (max-width: 640px) {
-  	.content {
-    		margin: 3% 2.5%;
-    		font-size: 5vw;
-	}
-	.menu {
-	 	padding: 3% 2.5%;
-    		font-size: 5vw;
-  	}
+
+.card {
+	padding: .5em;
+	background-color: white;
+	box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1), 0 2px 5px 0 rgba(0, 0, 0, 0.1);
+	margin-bottom: 2em;
+	border-radius: .2em;
 }
 .headline {
   	text-align: center;
@@ -86,18 +94,19 @@ body {
   	font-size: 135%;
 	font-style: italic;
   	margin:.25em;
-  	margin-bottom: 2em;
-	margin-top: -.65em;
+  	margin-bottom: 1em;
+	margin-top: -.55em;
   	opacity: .75;
 }
 .location {
-  	text-align: center;
-  	font-size: 150%;
-	font-style: italic;
+	text-align: center;
+  	font-size: 115%;
   	margin:.25em;
-  	margin-bottom: .5em;
-	margin-top: -.5em;
+  	margin-bottom: 1em;
+	margin-top: .5em;
   	opacity: .75;
+	font-weight: 300;
+	font-style: italic;
 }
 .homeimage {
   	display: block;
@@ -130,7 +139,11 @@ body {
   	font-size: 85%;
   	opacity: .75;
 }
-
+.section-text::after {
+  	content: "";
+  	clear: both;
+  	display: table;
+}
 .schedule-day {
 	font-family: 'EB Garamond', serif;
 	font-style: italic;
@@ -156,93 +169,78 @@ body {
 	padding-top: 1em;
 	padding-bottom: .25em;
 }
-.section-text::after {
-  	content: "";
-  	clear: both;
-  	display: table;
-}
-.card {
-	padding: .5em;
-	background-color: white;
-	box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1), 0 2px 5px 0 rgba(0, 0, 0, 0.1);
-	margin-bottom: 2em;
-	border-radius: .2em;
-}
-.footer {
-	text-align: center;
-  	font-size: 85%;
-  	opacity: .75;
-	border: 1px solid darkgrey;
-	padding: .25em;
-}
-.accommodation-name {
-	font-family: 'EB Garamond', serif;
-	font-style: italic;
-	clear: left;	
-	border-bottom: 1px solid darkgrey;
-	font-weight: 500;
-}
-.accommodation-description {
-	width: 60%;
- 	float: left;
-	font-family: 'EB Garamond', serif;
-	padding-top: .25em;
-	padding-bottom: .25em;
-	margin-bottom: 1em;
-}
-.accommodation-address {
-	width: 40%;
-    	float: left;
-	font-style: italic;
-	padding-top: .25em;
-	padding-bottom: .25em;
-	text-align: right;
-	text-decoration: underline 1px;
-}
-
-a.footerlink {
-	text-decoration: none;
-	color: #040129;
-}
-
-
-a.address-link {
-	text-decoration: underline;
-	color: #040129;
-}
-
-a.address-link:hover {
-	text-decoration: underline;
-	color: #040129;
-}
-
-.accommodation-link {
-	font-style: italic;
-	clear: left;
-	border: 1px solid darkgrey;
-	text-align: center;
-	margin-bottom: 3em;
-	padding: .25em;
-	
-}
-a.book-link {
-	color: #040129;
-	text-decoration: underline 1px;
-}
-.accommodation-link:hover {
-	background-color: white;
-}
-.footer:hover {
-	background-color: white;
-}
 a.schedule-link {
 	color: #040129;
 	text-decoration: underline 1px;
 }
 a.schedule-link:hover {
 	text-decoration: underline 1px;
+	color: blue;
 }
 .accommodation-text {
 	text-align: left;
-  	font-size: 90%;
+  	font-size: 100%;
 }
+.accommodation-name {
+	font-family: 'EB Garamond', serif;
+	font-style: italic;
+	clear: left;	
+	font-size: 115%;
+	font-weight: 500;
+	margin-top: 1em;
+}
+.accommodation-description {
+	clear: left;
+	font-family: 'EB Garamond', serif;
+	padding-top: .25em;
+	padding-bottom: .25em;
+	
+}
+.accommodation-address {
+	clear: left;
+	font-style: italic;
+	padding-bottom: .25em;
+	text-decoration: underline 1px;
+	line-height: 90%;
+	margin-top: -.05em;
+}
+a.address-link {
+	text-decoration: underline 1px;
+	color: #040129;
+}
+a.address-link:hover {
+	color: blue;
+}
+.accommodation-link {
+	font-weight: 500;
+	clear: left;
+	text-align: left;
+	margin-bottom: 2em;
+}
+.accommodation-link:hover {
+	color: blue;
+}
+a.book-link {
+	color: #040129;
+	text-decoration: underline 1px;
+}
+.footer {
+	text-align: center;
+  	
+  	opacity: .75;
+	padding: .25em;
+}
+a.footerlink {
+	text-decoration: underline 1px;
+	color: #040129;
+}
+a.footerlink:hover {
+	color: blue;
+}
+
+
+
+
+
+
+
